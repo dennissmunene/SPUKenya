@@ -116,6 +116,7 @@
         <splash src="resources/ios/splash/Default-Landscape@~ipadpro.png" width="2732" height="2048"/>
         <splash src="resources/ios/splash/Default-Portrait@~ipadpro.png" width="2048" height="2732"/>
     </platform>
+        <gap:plugin name="cordova-plugin-ad-admob" source="npm" />
 
     <gap:plugin name="cordova-plugin-camera" source="npm" version="2.4.1" />
     <gap:plugin name="cordova-plugin-media-capture" source="npm" version="1.4.3">
