@@ -24,7 +24,6 @@
     <gap:platform name="android" />
 
         <plugin name="cordova-plugin-admobpro-firebase" source="npm" />
-        <plugin name="cordova-support-google-services" source="npm" />
 
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
