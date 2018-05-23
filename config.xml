@@ -22,7 +22,9 @@
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
-    <gap: plugin name = "phonegap-admob" source = "npm" version = "4.1.14" />
+
+        <plugin name="cordova-plugin-admobpro-firebase" source="npm" />
+        <plugin name="cordova-support-google-services" source="npm" />
 
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
