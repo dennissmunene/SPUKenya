@@ -23,7 +23,7 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
 
-        <plugin name="cordova-plugin-admob-free" source="npm" />
+        <plugin name="cordova-plugin-admob-free" spec="v0.15.0" source="npm" />
 
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
