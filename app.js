@@ -23,7 +23,9 @@ angular.module('mm', ['ionic', 'ngCordova', 'angular-md5', 'pascalprecht.transla
             banner: 'ca-app-pub-8871136577207939/7772784807',
             interstitial: 'ca-app-pub-8871136577207939/6296051605'
         };
-
+admob.createBannerView({publisherId: "ca-app-pub-8871136577207939/7772784807"});
+                
+                admob.requestInterstitialAd({publisherId: "ca-app-pub-8871136577207939/6296051605", interstitialAdId: "ca-app-pub-8871136577207939/6296051605"});
 
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
