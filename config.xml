@@ -150,6 +150,8 @@
     <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="true" />
     </gap:config-file>
+        
+       <gap:plugin name="com.google.cordova.admob" source="plugins.cordova.io"/>
 
     <!-- See MOBILE-892 -->
     <preference name="permissions" value="none"/>
