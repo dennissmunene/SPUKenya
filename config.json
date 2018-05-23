@@ -12,8 +12,7 @@
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
     "siteurl": "https://elearning.spu.ac.ke",
-    "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
-    "forcedefaultlanguage": "false",
+    "forcedefaultlanguage": "true",
     "privacypolicy": "https://elearning.spu.ac.ke/privacy_policy.html"
 }
