@@ -17,6 +17,14 @@
 angular.module('mm', ['ionic', 'ngCordova', 'angular-md5', 'pascalprecht.translate', 'ngAria', 'oc.lazyLoad', 'ckeditor',
             'ngMessages', 'ngAnimate'])
 
+ var admobid = {};
+    if( /(android)/i.test(navigator.userAgent) ) { // for android
+        admobid = {
+            banner: 'ca-app-pub-8871136577207939/7772784807',
+            interstitial: 'ca-app-pub-8871136577207939/6296051605'
+        };
+
+
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
         if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
