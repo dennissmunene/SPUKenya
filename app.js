@@ -14,6 +14,8 @@
 
 // Dependencies will be automatically added here, the following line must declare ionic as first dependency
 // and should not be split into multiple lines, see gulpfile.js.
+import {banner} from 'cordova-plugin-admob-free/admob'
+
 angular.module('mm', ['ionic', 'ngCordova', 'angular-md5', 'pascalprecht.translate', 'ngAria', 'oc.lazyLoad', 'ckeditor',
             'ngMessages', 'ngAnimate'])
 
