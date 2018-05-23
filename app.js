@@ -17,10 +17,16 @@
 angular.module('mm', ['ionic', 'ngCordova', 'angular-md5', 'pascalprecht.translate', 'ngAria', 'oc.lazyLoad', 'ckeditor',
             'ngMessages', 'ngAnimate'])
 
-
-admob.createBannerView({publisherId: "ca-app-pub-8871136577207939/7772784807"});
-                
-                admob.requestInterstitialAd({publisherId: "ca-app-pub-8871136577207939/6296051605", interstitialAdId: "ca-app-pub-8871136577207939/6296051605"});
+admob.setOptions({
+        publisherId:          "ca-app-pub-8871136577207939/7772784807",  // Required
+        interstitialAdId:     "ca-app-pub-8871136577207939/6296051605",  // Optional
+      });
+      
+      // Start showing banners (atomatic when autoShowBanner is set to true)
+      admob.createBannerView();
+      
+      // Request interstitial (will present automatically when autoShowInterstitial is set to true)
+      admob.requestInterstitialAd();
 
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
